@@ -15,9 +15,12 @@ emails.txt 填写outlook邮箱 格式：email,password 一行一个，与账号�
 安装python >= 3.9
 
 matr1x.py 代码文件 最下面填写如下几个值，所有账号统一使用如下值
-    SafetyPassword = ''  # 六位数安全码
-    RegisterPassword = ''  # 注册密码
-    RecvAddr = ''  # 如果填写则所有账号的$MAX都会转到这个地址，否则默认转到账号对应地址
+
+```python
+SafetyPassword = ''  # 六位数安全码
+RegisterPassword = ''  # 注册密码
+RecvAddr = ''  # 如果填写则所有账号的$MAX都会转到这个地址，否则默认转到账号对应地址
+```
 
 ```commandline
 pip install -r requirements.txt
