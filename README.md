@@ -11,6 +11,7 @@ emails.txt 填写outlook邮箱 格式：email,password 一行一个，与账号�
 ## run
 
 安装nodejs
+
 安装python >= 3.9
 
 matr1x.py 代码文件 最下面填写如下几个值，所有账号统一使用如下值
